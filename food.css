@@ -1,0 +1,92 @@
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a04848;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.product {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.product:last-child {
+    border-bottom: none;
+}
+
+/* New styles for recipe display */
+.recipe {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.recipe-info {
+    flex: 1;
+    padding-right: 20px;
+    background-color: #f9f9f9; /* Background color for the recipe info */
+    border-radius: 10px; /* Rounded corners for the box */
+    padding: 15px; /* Padding inside the box */
+    margin-right: 10px;
+}
+
+.recipe-info p {
+    display: block; /* Change display to block to display them vertically */
+    border-radius: 20px; /* Adjust border-radius to make the circle more rectangular */
+    border: 2px solid #ccc;
+    padding: 5px 10px;
+    margin-bottom: 10px; /* Add margin to create space between circles */
+    color: #333; /* Change text color inside the circle */
+    background-color: #fff; /* Change background color of the circle */
+    transition: background-color 0.3s; /* Add transition for hover effect */
+}
+
+.recipe-info p:hover {
+    background-color: rgb(224, 130, 130); /* Change background color on hover */
+}
+
+
+.recipe-info h2 {
+    margin-top: 0;
+}
+
+.recipe-image {
+    flex: 1;
+}
+
+.recipe-image img {
+    max-width: 100%;
+    height: auto;
+    /* border-radius: 10px; */
+}
+
+.like-icon {
+    width: 40px; /* Set the width of the circle */
+    height: 40px; /* Set the height of the circle */
+    background-color: #ff7b7b; /* Set the background color of the circle */
+    border-radius: 50%; /* Make the element circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .heart {
+    width: 20px; /* Set the width of the heart icon */
+    height: 20px; /* Set the height of the heart icon */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="%23fff" d="M12 20c-.5 0-1-.2-1.4-.6L2 11.4c-1-1-1-2.6 0-3.6 1-1 2.6-1 3.6 0L12 15l6.4-6.4c1-1 2.6-1 3.6 0 1 1 1 2.6 0 3.6L13.4 19.4c-.4.4-.9.6-1.4.6z"/><path d="M0 0h24v24H0z" fill="none"/></svg>'); /* Set the heart icon as background image */
+    background-repeat: no-repeat; /* Prevent the heart icon from repeating */
+    background-position: center; /* Center the heart icon */
+  }
+  
