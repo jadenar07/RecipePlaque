@@ -1,1 +1,1 @@
-# RecipePlaque
+Developing a website catering to fitness enthusiasts and individuals focused on dieting, offering a personalized recipe selection based on user preferences. Utilizing JavaScript, HTML, and CSS to create the interface. Incorporated the Spoonacular API to access food information, enriching the website’s data and site functionality. Managing user authentication and storing recipes saved by the user through Django framework
